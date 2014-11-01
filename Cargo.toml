@@ -1,0 +1,5 @@
+[package]
+
+name = "rust-ros"
+version = "0.0.1"
+authors = ["Galen Clark Haynes <gch@users.noreply.github.com>"]
