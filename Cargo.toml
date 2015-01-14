@@ -3,3 +3,14 @@
 name = "rust-ros"
 version = "0.0.1"
 authors = ["Galen Clark Haynes <gch@users.noreply.github.com>"]
+
+[lib]
+name = "ros"
+path = "src/lib.rs"
+
+[dependencies]
+rust-xmlrpc = "0.0.6"
+
+[[example]]
+name = "ros_client_example"
+path = "examples/ros_client_example.rs"
